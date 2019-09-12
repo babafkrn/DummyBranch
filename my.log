@@ -1,0 +1,47 @@
+2019-08-22 12:30:09.814  INFO 2216 --- [restartedMain] ApplicationBootstrapJqueryAppApplication : Starting SpringBootWebApplicationBootstrapJqueryAppApplication on INAIRDT542592 with PID 2216 (started by P7108899 in D:\Spring Boot\Workspaces\Jul_19_2019\spring-boot-web-application-bootstrap-jquery-app)
+2019-08-22 12:30:09.815  INFO 2216 --- [restartedMain] ApplicationBootstrapJqueryAppApplication : No active profile set, falling back to default profiles: default
+2019-08-22 12:30:10.114  INFO 2216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-22 12:30:10.122  INFO 2216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 1 repository interfaces.
+2019-08-22 12:30:10.164  INFO 2216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a21512] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 12:30:10.166  INFO 2216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$88226244] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-22 12:30:10.295  INFO 2216 --- [restartedMain] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 9090
+2019-08-22 12:30:10.295  INFO 2216 --- [restartedMain] org.eclipse.jetty.server.Server          : jetty-9.4.19.v20190610; built: 2019-06-10T16:30:51.723Z; git: afcf563148970e98786327af5e07c261fda175d3; jvm 1.8.0_92-b14
+2019-08-22 12:30:10.298  INFO 2216 --- [restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2019-08-22 12:30:10.298  INFO 2216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 482 ms
+2019-08-22 12:30:10.450  INFO 2216 --- [restartedMain] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2019-08-22 12:30:10.450  INFO 2216 --- [restartedMain] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2019-08-22 12:30:10.450  INFO 2216 --- [restartedMain] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2019-08-22 12:30:10.453  INFO 2216 --- [restartedMain] o.e.j.s.h.ContextHandler.application     : Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2019-08-22 12:30:10.517  INFO 2216 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-22 12:30:10.519  INFO 2216 --- [restartedMain] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@5318f583{application,/jquery-app,[org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory$LoaderHidingResource@6b1c74fe, jar:file:/C:/Users/P7108899.NTIL/.m2/repository/org/webjars/bootstrap/3.3.6/bootstrap-3.3.6.jar!/META-INF/resources, jar:file:/C:/Users/P7108899.NTIL/.m2/repository/org/webjars/bootstrap-datepicker/1.0.1/bootstrap-datepicker-1.0.1.jar!/META-INF/resources, jar:file:/C:/Users/P7108899.NTIL/.m2/repository/org/webjars/jquery/1.9.1/jquery-1.9.1.jar!/META-INF/resources],AVAILABLE}
+2019-08-22 12:30:10.519  INFO 2216 --- [restartedMain] org.eclipse.jetty.server.Server          : Started @88691146ms
+2019-08-22 12:30:10.543  INFO 2216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Starting...
+2019-08-22 12:30:10.544  INFO 2216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Start completed.
+2019-08-22 12:30:10.551  INFO 2216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-22 12:30:10.559  INFO 2216 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2019-08-22 12:30:10.576  INFO 2216 --- [restartedMain] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6a40fb0b'
+2019-08-22 12:30:10.576  INFO 2216 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-08-22 12:30:10.577  INFO 2216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 12:30:10.593  INFO 2216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-08-22 12:30:10.774  INFO 2216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-22 12:30:10.780  WARN 2216 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-22 12:30:10.811  INFO 2216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-08-22 12:30:10.903  INFO 2216 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-22 12:30:10.935  INFO 2216 --- [restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-22 12:30:10.935  INFO 2216 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-22 12:30:10.944  INFO 2216 --- [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2019-08-22 12:30:10.947  INFO 2216 --- [restartedMain] o.e.jetty.server.AbstractConnector       : Started ServerConnector@3712c052{HTTP/1.1,[http/1.1]}{0.0.0.0:9090}
+2019-08-22 12:30:10.948  INFO 2216 --- [restartedMain] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 9090 (http/1.1) with context path '/jquery-app'
+2019-08-22 12:30:10.948  INFO 2216 --- [restartedMain] ApplicationBootstrapJqueryAppApplication : Started SpringBootWebApplicationBootstrapJqueryAppApplication in 1.167 seconds (JVM running for 88691.575)
+2019-08-22 12:35:57.964  INFO 2216 --- [Thread-435] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-22 12:35:57.965  INFO 2216 --- [Thread-435] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-22 12:35:57.965  INFO 2216 --- [Thread-435] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-08-22 12:35:57.968  INFO 2216 --- [Thread-435] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-08-22 12:35:57.968  INFO 2216 --- [Thread-435] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown initiated...
+2019-08-22 12:35:57.969  INFO 2216 --- [Thread-435] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown completed.
+2019-08-22 12:35:57.971  INFO 2216 --- [Thread-435] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@3712c052{HTTP/1.1,[http/1.1]}{0.0.0.0:9090}
+2019-08-22 12:35:57.971  INFO 2216 --- [Thread-435] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2019-08-22 12:35:57.971  INFO 2216 --- [Thread-435] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-08-22 12:35:57.971  INFO 2216 --- [Thread-435] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@5318f583{application,/jquery-app,[org.springframework.boot.web.embedded.jetty.JettyServletWebServerFactory$LoaderHidingResource@6b1c74fe, jar:file:/C:/Users/P7108899.NTIL/.m2/repository/org/webjars/bootstrap/3.3.6/bootstrap-3.3.6.jar!/META-INF/resources, jar:file:/C:/Users/P7108899.NTIL/.m2/repository/org/webjars/bootstrap-datepicker/1.0.1/bootstrap-datepicker-1.0.1.jar!/META-INF/resources, jar:file:/C:/Users/P7108899.NTIL/.m2/repository/org/webjars/jquery/1.9.1/jquery-1.9.1.jar!/META-INF/resources],UNAVAILABLE}
